@@ -1,6 +1,6 @@
 package thread;
 
-public class MinhaThread implements Runnable {
+public class MinhaThread extends Thread {
     private String nome;
 
     public MinhaThread(String nome) {

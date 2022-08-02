@@ -57,7 +57,7 @@ public class TestaFuture {
 //        CompletableFuture<Integer> future3 = CompletableFuture.supplyAsync(
 //                () -> maior(lista2));
 
-       future.get();
+        future.get();
         future2.get();
         System.out.println("Tempo decorrido: " + (System.currentTimeMillis() - inicio));
         System.out.println(Thread.currentThread().getName());
